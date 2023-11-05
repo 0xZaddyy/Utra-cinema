@@ -1,3 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3EFEF;
+}
+
+
+.body1 {
+    width: 1440px;
+    height: 798px;
+    top: -11px
+
+}
+
 .search-input{
     width: 318.42px;
     height: 45px;
@@ -7,4 +21,13 @@
     border-radius: 305.69px;
     border: 2px solid black;
     gap: 11.84px;
+}
+
+.sign-up-form{
+    width: ;
+    box-shadow: ;
+    background: ;
+    padding: ;
+    margin: ;
+    text-align: center;
 }
