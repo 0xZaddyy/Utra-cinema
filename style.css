@@ -8,7 +8,7 @@ body{
 
 .body1 {
     width: 1000px;
-    height: 600px;
+    height: 500px;
     top: -8px;
     padding-left: 200px;
 
@@ -29,12 +29,24 @@ body{
     width: 430px;
     height: 300px;
     box-shadow: ;
-    background: #fff;
-    padding: 20px;
+    background: #FFFFFF;
+    padding: 80px;
     margin: 8% auto 0;
-    text-align: center;
+    border-radius: 15px;
+    /* text-align: center; */
+    
 }
 .input-box{
     border-radius: 5px;
-    width: 100%;
+    width: 85%;
+    height: 25px;
+    outline: none;
+    
+    
+}
+button{
+    color: #3626A7;
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 20px;
 }
