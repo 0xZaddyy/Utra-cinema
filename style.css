@@ -2,13 +2,15 @@ body{
     margin: 0;
     padding: 0;
     background: #F3EFEF;
+    background-size: cover;
 }
 
 
 .body1 {
-    width: 1440px;
-    height: 798px;
-    top: -11px
+    width: 1000px;
+    height: 600px;
+    top: -8px;
+    padding-left: 200px;
 
 }
 
@@ -24,10 +26,15 @@ body{
 }
 
 .sign-up-form{
-    width: ;
+    width: 430px;
+    height: 300px;
     box-shadow: ;
-    background: ;
-    padding: ;
-    margin: ;
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
     text-align: center;
+}
+.input-box{
+    border-radius: 5px;
+    width: 100%;
 }
