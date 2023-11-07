@@ -1,6 +1,8 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
     background: #F3EFEF;
     background-size: cover;
 }
@@ -15,12 +17,12 @@ body{
 }
 
 .search-input{
-    width: 318.42px;
-    height: 45px;
-    top: 69px;
-    left: 390px;
-    padding: 5.92px 20.13px;
-    border-radius: 305.69px;
+    width: 280.42px;
+    height: 35px;
+    /* top: 69px;
+    left: 390px; */
+    
+    border-radius: 50.69px;
     border: 2px solid black;
     gap: 11.84px;
 }
@@ -28,7 +30,7 @@ body{
 .sign-up-form{
     width: 430px;
     height: 300px;
-    box-shadow: ;
+    /* box-shadow: ; */
     background: #FFFFFF;
     padding: 80px;
     margin: 8% auto 0;
@@ -49,4 +51,24 @@ button{
     /* width: 100%; */
     padding: 10px;
     border-radius: 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+nav ul li  {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    color: #494444;;
+}
+
+nav ul li a {
+    color: #494444;
+}
+
+label{
+    margin: 30px;
+    size: -40px;
 }
