@@ -59,16 +59,26 @@ nav ul {
 }
 nav ul li  {
     display: inline-block;
-    line-height: 80px;
-    margin: 0 10px;
+    line-height: 90px;
+    margin-right:10px;
     color: #494444;;
+
 }
 
 nav ul li a {
     color: #494444;
 }
 
-label{
+label .logo{
     margin: 30px;
     size: -40px;
+    padding: 0 100px;
 }
+
+.big {
+    display: inline-block; /* Display images inline */
+    width: 1200px; /* Adjust width as needed */
+    height: 400px;
+    margin-left: 50px;
+}
+

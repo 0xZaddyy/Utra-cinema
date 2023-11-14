@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loggg.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="images/111111 1.jpg" alt="">
+    <label for="logo"><img src="images/111111 1.jpg" alt=""></label>
 
-    <div class="sign-up-form">
-        <p>Enter your email/user name</p>
-        <form >
-           <input type="email" class="input-box" placeholder="email/user name">
-        </form>
+   <div class="wrapper">
+    <form action="">
+        
+        <div class="input-box">
+            <h6>Enter your email/user name</h6>
+            <input type="text"  required>
+            <i class="bx bxs-user "></i>
+        </div>
+        <div class="input-box">
+            <h6>Enter password</h6>
+            <input type="password"  required>
+            <i class="bx bxs-lock-alt"></i>
+        </div>
 
-        <p>Password</p>
-        <form >
-           <input type="email" class="input-box" placeholder="Password">
-        </form>
-    </div>
+        
+
+        <button type="submit" class="btn">Log in</button>
+
+        
+    </form>
+   </div>
 </body>
 </html>
